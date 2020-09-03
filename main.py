@@ -4,8 +4,9 @@ temp = float(inp)
 temp1 = temp * 9/5 + 32
 temp2 = temp - 32 * 9/5
 if unit == "F" or unit == "f":
-  print(f"{temp}° in Celsius is equivalent to {temp1}° in Fahrenheit.")
-elif unit == "C" or unit == "c":
   print(f"{temp}° in Fahrenheit is equivalent to {temp2}° in Celsius.")
+elif unit == "C" or unit == "c":
+  
+  print(f"{temp}° in Celsius is equivalent to {temp1}° in Fahrenheit.")
 else:
   print(f"Invalid unit({unit}).")
