@@ -1,4 +1,9 @@
+#Author: Samantha Zolin saz5193@psu.print
+#Collaborator: Shakeb Siddiqui sms8508@psu.edu
+#Collaborator: Dominic Savaglio djs7129@psu.edu
+#Collaborator: Sneha Prem Chandran: smp6705@psu.edu
 inp = input("Enter temperature: ")
+
 unit = input("Enter unit in F/f or C/c: ")
 temp = float(inp)
 temp1 = temp * 9/5 + 32
